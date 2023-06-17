@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/React-Clinic-Project/static/css/main.a39f47f1.css",
+    "main.js": "/React-Clinic-Project/static/js/main.e13b5478.js",
+    "static/js/787.a85f2554.chunk.js": "/React-Clinic-Project/static/js/787.a85f2554.chunk.js",
+    "static/media/report_png2.png": "/React-Clinic-Project/static/media/report_png2.c093a5b6e2617fe70913.png",
+    "static/media/pic3.jpg": "/React-Clinic-Project/static/media/pic3.1b81f0b912d30adaecaa.jpg",
+    "static/media/pic4.jpg": "/React-Clinic-Project/static/media/pic4.f4c3539061146e89d778.jpg",
+    "static/media/pic2.jpg": "/React-Clinic-Project/static/media/pic2.4b5ad936b779ef438af1.jpg",
+    "static/media/pic1.jpg": "/React-Clinic-Project/static/media/pic1.10511418a068ddb7801d.jpg",
+    "static/media/report_png.png": "/React-Clinic-Project/static/media/report_png.1eac20c9a3efa49410ae.png",
+    "static/media/image-layers-6_1.png": "/React-Clinic-Project/static/media/image-layers-6_1.77eab597c41aa76bc7fb.png",
+    "static/media/pic5.jpg": "/React-Clinic-Project/static/media/pic5.2a9054285ed747d577cf.jpg",
+    "static/media/report.pdf": "/React-Clinic-Project/static/media/report.e38ec62b46ed299d42fa.pdf",
+    "static/media/image-layers-5_1.png": "/React-Clinic-Project/static/media/image-layers-5_1.ab32073935a12f9ec7d4.png",
+    "static/media/ct_scan.jpeg": "/React-Clinic-Project/static/media/ct_scan.0164e126d3631c7ccf42.jpeg",
+    "static/media/image-layers-6_2.png": "/React-Clinic-Project/static/media/image-layers-6_2.9e35b2ad78175e1a0d3d.png",
+    "static/media/logo1.jpg": "/React-Clinic-Project/static/media/logo1.d9baf61aaf1b74e1d74a.jpg",
+    "static/media/about1.png": "/React-Clinic-Project/static/media/about1.2aceb2dd09c8e0720404.png",
+    "static/media/Lato-Regular.ttf": "/React-Clinic-Project/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "static/media/YekanV3.ttf": "/React-Clinic-Project/static/media/YekanV3.f6a0838b6690eaaa2898.ttf",
+    "static/media/YekanV3.eot": "/React-Clinic-Project/static/media/YekanV3.9db58f99bcd38a0e67b6.eot",
+    "static/media/IRANSansWeb.ttf": "/React-Clinic-Project/static/media/IRANSansWeb.84fda3e85b2ec3885be1.ttf",
+    "static/media/map.png": "/React-Clinic-Project/static/media/map.e750f16d26cf4f05e0dd.png",
+    "static/media/image-layers-5_3.png": "/React-Clinic-Project/static/media/image-layers-5_3.9dc0cd49ddfc86d95eea.png",
+    "static/media/image-layers-5_4.png": "/React-Clinic-Project/static/media/image-layers-5_4.f26d8bb1c6e1592bc432.png",
+    "static/media/YekanV3.woff": "/React-Clinic-Project/static/media/YekanV3.18af8c75ab1951a5e56d.woff",
+    "static/media/image-layers-6_3-1.png": "/React-Clinic-Project/static/media/image-layers-6_3-1.ae36c0921079f3a28acd.png",
+    "static/media/image-layers-5_2-1.png": "/React-Clinic-Project/static/media/image-layers-5_2-1.a099981edc8179d2819f.png",
+    "static/media/logo.svg": "/React-Clinic-Project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-Clinic-Project/index.html",
+    "main.a39f47f1.css.map": "/React-Clinic-Project/static/css/main.a39f47f1.css.map",
+    "main.e13b5478.js.map": "/React-Clinic-Project/static/js/main.e13b5478.js.map",
+    "787.a85f2554.chunk.js.map": "/React-Clinic-Project/static/js/787.a85f2554.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a39f47f1.css",
+    "static/js/main.e13b5478.js"
+  ]
+}
