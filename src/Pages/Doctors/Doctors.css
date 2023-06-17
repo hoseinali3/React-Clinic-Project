@@ -1,0 +1,7 @@
+.doctors-wrapper{
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    padding: 1em;
+    
+    border-radius: 15px;
+}

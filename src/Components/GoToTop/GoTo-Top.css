@@ -1,0 +1,76 @@
+
+
+.gototop{
+    position: fixed;
+    visibility: hidden;
+    display: flex;
+    opacity: 0;
+    padding: 14px;
+    bottom: 0;
+    right: 5em;
+    border-radius: 10em;
+    background-color: var(--green3);
+    box-shadow: var(--box-shadow);
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 1;
+}
+.gototop.active{
+  
+
+    visibility: visible;
+    opacity: 1;
+    bottom: 3em;
+
+}
+
+.gototop img{
+    width: 2.5em;
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+@media screen and (max-width:510px) {
+   
+    .gototop{
+        
+      
+        right: 2em;
+        
+    }
+ 
+
+   
+        
+}
+
+
+@media screen and (max-width:420px) {
+
+    .gototop{
+        
+      
+        right: 1em;
+        
+    }
+  
+  
+
+}
+
+@media screen and (max-width:380px) {
+
+  
+    .gototop.active{
+
+        /* visibility: hidden;
+        opacity: 0; */
+            bottom: 7em;
+    }
+
+}

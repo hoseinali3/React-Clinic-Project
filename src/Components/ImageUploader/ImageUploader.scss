@@ -1,0 +1,26 @@
+
+
+.image-uploader-wrapper{
+display: flex;
+flex-direction: column;
+row-gap: 1em;
+justify-content: center;
+width: 100%;
+    
+    .MuiDropzoneArea-root{
+        color: var(--green3) !important;
+        min-height:180px !important;
+        .MuiDropzoneArea-text{
+            font-family: IRsans-web !important;
+            font-size: 18px;
+            padding: 1em 0 !important;
+        }
+        .MuiDropzoneArea-icon{
+            color: var(--green3) !important;
+        }
+        .MuiDropzonePreviewList-removeButton{
+            top: 4em;
+            right: 3.9em;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+
+
+.error404-wrapper{
+   
+    margin: 0 auto;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.error404-img{
+   margin: 0 auto;
+  width: 600px;
+}
+
+
+
+
+@media screen and (max-width:992px) {
+  .error404-img{
+    
+   width: 500px;
+ }
+ 
+}
+
+@media screen and (max-width:768px) {
+  .error404-img{
+    
+   width: 400px;
+ }
+ 
+}
+@media screen and (max-width:640px) {
+  .error404-img{
+    
+   width: 300px;
+ }
+ 
+}

@@ -1,0 +1,139 @@
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(525px,1fr));
+    justify-content: center;
+    row-gap: 2em;
+    padding: 2em 15em;
+    
+    background-color: var(--bs-gray-700);
+}
+
+
+
+.footer-rightside{
+    display: grid;
+    justify-content: center;
+    gap: 4em;
+    grid-template-columns: repeat(3,max-content);
+   padding: 2em 0 0 0;
+}
+
+
+.footer-rightside-col{
+    display: flex;
+   width: 100%;
+    flex-direction: column;
+    row-gap: 0.5em;
+}
+.footer-rightside-col > span{
+    font-size: 22px;
+    margin: 0 0 0.6em 0;
+    color: var(--white);
+    position: relative;
+}
+.footer-rightside-col > span::after{
+   content: '';
+   position: absolute;
+   width: 2em;
+   background-color: var(--green3);
+   height: 2px;
+    right: 0;
+   bottom: -5px;
+
+
+}
+.footer-rightside-col > p{
+   
+    color: var(--white);
+}
+.footer-rightside-col a{
+    font-size: 16px;
+    color: var(--white);
+    transition: 0.3s;
+}
+.footer-rightside-col a:hover{
+  color: var(--green3);
+}
+
+
+.footer-leftside{
+    display: grid;
+    justify-content: left;
+    row-gap: 1em;
+}
+.footer-leftside > img{
+border-radius: 15px;
+
+}
+
+
+
+.footer-leftside-title{
+    color: var(--white) !important;
+  
+  
+}
+
+
+
+
+
+@media screen and (max-width:1557px) {
+
+    .footer-container{
+       
+        padding: 2em 12em;
+        
+        
+    }
+}
+
+@media screen and (max-width:1444px) {
+
+ .footer-footer{
+    column-gap: 1em;
+     
+    }
+    .footer-leftside{
+        grid-row: 1/2;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:1282px) {
+    .footer-header-item{
+        justify-content: space-between;
+    }
+    .footer-rightside{
+       
+        padding: 0;
+        }
+}
+
+@media screen and (max-width:1100px) {
+    .footer-rightside{
+       
+        padding: 0 6em 0 0;
+        }
+
+}
+
+@media screen and (max-width:910px) {
+    .footer-rightside{
+       
+            grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+         gap: 2em;
+         padding: 0 2em 0 0;
+        }
+
+}
+@media screen and (max-width:765px) {
+ 
+.footer-rightside{
+padding: 0 10em 0 0;
+   
+ 
+}
+.footer-container {
+    padding: 2em 6em;
+}
+}

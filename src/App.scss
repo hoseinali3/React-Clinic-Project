@@ -1,0 +1,30 @@
+
+
+.background-body{
+  background-color: var(--background-gray);
+
+}
+.background-body2{
+  background-color: var(--white);
+ 
+}
+.background-body3{
+  background-color: var(--light-green3);
+ 
+}
+
+.btn2{
+  padding: 0.6em 1em !important;
+  border-radius: 8px !important ;
+  color: var(--white) !important;
+  box-shadow: var(--box-shadow) !important;
+  background-color: var(--green3) !important;
+  border: 1px solid var(--green3) !important;
+}
+
+.btn2:hover{
+ 
+  color: var(--green3) !important;
+
+  background-color: var(--white) !important;
+}

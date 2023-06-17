@@ -1,0 +1,43 @@
+.section2-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em 0 0 0;
+}
+
+.sec2-rightside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2-leftside {
+    display: flex;
+   
+    
+  row-gap: 1em;
+    flex-direction: column;
+
+}
+
+
+.sec2-leftside > h1{
+    font-weight: bold;
+
+}
+.sec2-leftside > h1 > span{
+    color: var(--green3);
+
+}
+.sec2-leftside > span{
+    color: var(--bs-gray-700);
+    font-size: 20px;
+
+}
+
+.sec2-leftside > p {
+    text-align: justify;
+line-height: 2;
+}

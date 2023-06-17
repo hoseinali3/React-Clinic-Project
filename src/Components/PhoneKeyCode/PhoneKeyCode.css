@@ -1,0 +1,16 @@
+
+.key-code{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    column-gap: 0.5em;
+    font-size: 20px;
+    
+}
+.key-code > span{
+ 
+    background-color: var(--bs-gray-300);
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    color: var(--bs-gray-700);
+}
