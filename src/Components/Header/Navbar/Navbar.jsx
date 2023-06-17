@@ -63,7 +63,7 @@ export default function Navbar() {
 
             </div>
             <Button className='reg-login-btn'>
-                {getIsLogin ? (
+                {localStorage.getItem('isLogin') ? (
                     <Link to='React-Clinic-Project/userpanel/responsiveness'>
                         {getUserName}
                     </Link>

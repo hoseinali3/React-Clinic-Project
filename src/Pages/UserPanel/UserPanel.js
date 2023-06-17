@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './UserPanel.css'
 import './UserPanel.scss'
 
-import { Link, Outlet, Navigate } from 'react-router-dom';
+import { Link, Outlet, Navigate, useNavigate } from 'react-router-dom';
 
 
 export default function UserPanel() {
@@ -11,7 +11,7 @@ export default function UserPanel() {
   const [pathName, setPathName] = useState(window.location.pathname)
   const [label, setLabel] = useState("")
   const [orders, setOrders] = useState()
-
+  const navigate = useNavigate()
 
 
 
@@ -19,7 +19,7 @@ export default function UserPanel() {
 
   useEffect(() => {
     setPathName(window.location.pathname)
-  }, [window.location.pathname,label])
+  }, [window.location.pathname, label])
   return (
 
     <div className='background-body'>
@@ -31,33 +31,34 @@ export default function UserPanel() {
             <div className="user-panel-tabs">
               <span>پنل کاربری</span>
 
-    
+
               <Link to="responsiveness" onClick={() => setLabel("responsiveness")} className={window.location.pathname.slice(1) === "React-Clinic-Project/userpanel/responsiveness" ? "active" : null}>
 
                 جوابدهی
 
               </Link>
-        
+
               <Link to="NobatDehi" onClick={() => setLabel("NobatDehi")} className={window.location.pathname.slice(1) === "React-Clinic-Project/userpanel/NobatDehi" ? "active" : null}>
 
                 نوبت دهی
 
               </Link>
               <Link to="#" onClick={() => (
-                localStorage.setItem("isLogin",""),
+                localStorage.setItem("isLogin", ""),
                 window.location.href = "/React-Clinic-Project/"
+                // navigate("/React-Clinic-Project/")
               )} >
 
-                 خروج
+                خروج
 
               </Link>
 
             </div>
 
-           
-              <Outlet />
-            
-            
+
+            <Outlet />
+
+
 
 
 

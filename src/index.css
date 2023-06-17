@@ -289,7 +289,8 @@ p,span{
 }
 
 .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked,
-.css-exkjcx{
+.css-exkjcx,
+.css-348fk2.Mui-focused{
   color: var(--green3) !important;
 } 
 
@@ -302,6 +303,11 @@ p,span{
 .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,
 .css-l4u8b9-MuiInputBase-root-MuiInput-root {
     font-family: IRsans-web !important;
+}
+.css-mqt2s5,
+.css-348fk2{
+  left: unset !important;
+  font-family: unset !important;
 }
 
 
@@ -353,7 +359,8 @@ color: var(--green3) !important;
 
 
 .css-zrqpq1::after,
-.css-m5hdmq-MuiInputBase-root-MuiInput-root-MuiSelect-root:after{
+.css-m5hdmq-MuiInputBase-root-MuiInput-root-MuiSelect-root:after,
+.css-12rx5qu::after{
   border-bottom:2px solid var(--green3) !important;
 }
 

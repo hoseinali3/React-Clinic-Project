@@ -85,8 +85,8 @@ export default function Login() {
             setMainInputValue('')
             setInputKeycode('')
             setInterval(() => {
-                window.location.href = "/React-Clinic-Project/userpanel/responsiveness"
-
+                window.location.href = "/React-Clinic-Project/"
+                // navigate("/React-Clinic-Project/userpanel/responsiveness")
             }, 3000);
         } else {
             Swal.fire({
