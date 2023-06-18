@@ -100,3 +100,13 @@
         justify-content: space-evenly;
     }
 }
+@media screen and (max-width:768px) {
+    .sec1-body{
+        padding: 0 7em;
+    }
+}
+@media screen and (max-width:425px) {
+    .sec1-body{
+        padding: 0 2em;
+    }
+}

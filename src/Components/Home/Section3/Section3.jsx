@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom'
 export default function Section3() {
   return (
     <div className='section3-container'>
-      <div className="sec3-items">
+      <div className="sec3-items1">
         <div className="sec3-item1-rightside">
 
           <img src={pic1} alt="" />
@@ -34,7 +34,7 @@ export default function Section3() {
           <Link className='btn1' to="React-Clinic-Project/">بیشتر <KeyboardArrowLeftIcon /></Link>
         </div>
       </div>
-      <div className="sec3-items">
+      <div className="sec3-items2">
         <div className="sec3-item2-rightside">
           <h1>طرح های بزرگ نمایش نمونه کار!</h1>
           <p>پروژه های پر زرق و برق خود را با استفاده از نمونه کارها ما نشان دهید ، که شامل سبک های مختلفی مانند: شبکه ، سنگ تراشی است. طرح سنگ تراشی اجازه می دهد تا پروژه ها را به عنوان ستونی مبتنی بر ستون نمایش دهید. Grid در صورت نیاز به نمایش پروژه ها در ستون ها ، یک راه حل عالی است.</p>

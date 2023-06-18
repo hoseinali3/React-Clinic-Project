@@ -5,7 +5,7 @@ import DrTable from '../../DrTable/DrTable'
 export default function Section4() {
 
   return (
-    <div className='py-4'>
+    <div className='section4-container'>
      <DrTable/>
     </div>
   )

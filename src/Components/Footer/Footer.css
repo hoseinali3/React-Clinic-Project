@@ -134,6 +134,31 @@ padding: 0 10em 0 0;
  
 }
 .footer-container {
-    padding: 2em 6em;
+    padding: 2em;
+   
+}
+}
+@media screen and (max-width:580px) {
+ 
+.footer-rightside{
+padding: 0 4em 0 0;
+   
+ 
+}
+.footer-container {
+    padding: 2em;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+}
+@media screen and (max-width:350px) {
+ 
+.footer-rightside{
+padding: 0;
+   
+ 
+}
+.footer-container {
+    padding: 2em;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
 }
 }

@@ -43,3 +43,23 @@
     border-radius: 15px;
     box-shadow: var(--box-shadow);
 }
+
+@media screen and (max-width:992px) {
+    .contact-us-body-rightside{
+      
+        font-size: 22px;
+    }
+    
+  
+    
+}
+
+@media screen and (max-width:500px) {
+    .contact-us-body-rightside{
+      
+        font-size: 18px;
+    }
+    
+  
+    
+}

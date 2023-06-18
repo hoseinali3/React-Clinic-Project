@@ -31,7 +31,7 @@ export default function MobileMenu() {
             {!item.submenu ? (<ListItemButton>
 
 
-              <NavLink style={{ padding: "12px 0", color: "var(--white)" }} to={`/${item.link}`}>{item.title}</NavLink>
+              <NavLink style={{ padding: "12px 0", color: "var(--white)" }} to={`${item.link}`}>{item.title}</NavLink>
 
 
             </ListItemButton>) : (<Accordion sx={{ width: "100%", direction: "rtl" }} className="accordion">

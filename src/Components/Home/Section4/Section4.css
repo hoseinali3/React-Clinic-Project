@@ -1,0 +1,11 @@
+.section4-container{
+    padding: 3em 0;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .section4-container{
+        padding: 0;
+    }
+}
