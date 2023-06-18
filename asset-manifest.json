@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Clinic-Project/static/css/main.057faee4.css",
-    "main.js": "/React-Clinic-Project/static/js/main.939e4652.js",
+    "main.css": "/React-Clinic-Project/static/css/main.ee515f38.css",
+    "main.js": "/React-Clinic-Project/static/js/main.0d527627.js",
     "static/js/787.a85f2554.chunk.js": "/React-Clinic-Project/static/js/787.a85f2554.chunk.js",
     "static/media/report_png2.png": "/React-Clinic-Project/static/media/report_png2.c093a5b6e2617fe70913.png",
     "static/media/pic3.jpg": "/React-Clinic-Project/static/media/pic3.1b81f0b912d30adaecaa.jpg",
@@ -29,12 +29,12 @@
     "static/media/image-layers-5_2-1.png": "/React-Clinic-Project/static/media/image-layers-5_2-1.a099981edc8179d2819f.png",
     "static/media/logo.svg": "/React-Clinic-Project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/React-Clinic-Project/index.html",
-    "main.057faee4.css.map": "/React-Clinic-Project/static/css/main.057faee4.css.map",
-    "main.939e4652.js.map": "/React-Clinic-Project/static/js/main.939e4652.js.map",
+    "main.ee515f38.css.map": "/React-Clinic-Project/static/css/main.ee515f38.css.map",
+    "main.0d527627.js.map": "/React-Clinic-Project/static/js/main.0d527627.js.map",
     "787.a85f2554.chunk.js.map": "/React-Clinic-Project/static/js/787.a85f2554.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.057faee4.css",
-    "static/js/main.939e4652.js"
+    "static/css/main.ee515f38.css",
+    "static/js/main.0d527627.js"
   ]
 }
