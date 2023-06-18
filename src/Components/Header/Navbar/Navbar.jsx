@@ -45,7 +45,7 @@ export default function Navbar() {
                 <ul className='main-menu-list'>
                     {navbarData.length && (
                         navbarData.map(nav => (
-                            <li key={nav.id} className={`main-menu-listitem ${window.location.pathname.slice(1) === nav.link ? 'nav-active' : null}`}><NavLink to={nav.link} className={window.location.pathname.slice(1) === nav.link ? "nav-active" : null}>{nav.title}</NavLink>
+                            <li key={nav.id} className={`main-menu-listitem ${window.location.pathname === nav.link ? 'nav-active' : null}`}><NavLink to={nav.link} className={window.location.pathname === nav.link ? "nav-active" : null}>{nav.title}</NavLink>
                             </li>
                         ))
                     )}

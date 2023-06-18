@@ -6,7 +6,9 @@ import './PhoneKeyCode.css'
 
 export default function PhoneKeyCode({
     changeHandler,
-    inputKeyCode
+    inputKeyCode,
+    randomKeyCode,
+    setRandomKeyCode
 }) {
 
     const [count, setCount] = useState(0)
@@ -16,22 +18,24 @@ export default function PhoneKeyCode({
 
         const randomNum = Math.round(Math.random() * 1000000);
         localStorage.setItem("keyCode", JSON.stringify(randomNum));
+        setRandomKeyCode(randomNum)
+       
         setCount(45)
 
     }
 
-   
+
     useEffect(() => {
 
         timerId.current = setInterval(() => {
             setCount(prev => prev - 1);
         }, 1000);
-        
+
         if (count <= 0) {
-            clearInterval(timerId.current) 
-            localStorage.setItem("keyCode", null);  
+            clearInterval(timerId.current)
+            localStorage.setItem("keyCode", null);
         }
-return () => clearInterval(timerId.current)
+        return () => clearInterval(timerId.current)
 
     }, [count]);
 

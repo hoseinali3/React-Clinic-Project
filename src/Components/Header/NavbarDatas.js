@@ -11,7 +11,7 @@ const NavbarDatas = [
         id: 2,
         title: "نوبت دهی",
         link: localStorage.getItem("isLogin") ? "/React-Clinic-Project/userpanel/NobatDehi" : "/React-Clinic-Project/login",
-
+                                                
 
     },
     {

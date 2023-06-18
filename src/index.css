@@ -360,7 +360,8 @@ color: var(--green3) !important;
 
 .css-zrqpq1::after,
 .css-m5hdmq-MuiInputBase-root-MuiInput-root-MuiSelect-root:after,
-.css-12rx5qu::after{
+.css-12rx5qu::after,
+.css-o3ukdw::after{
   border-bottom:2px solid var(--green3) !important;
 }
 

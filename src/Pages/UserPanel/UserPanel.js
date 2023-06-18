@@ -32,13 +32,13 @@ export default function UserPanel() {
               <span>پنل کاربری</span>
 
 
-              <Link to="responsiveness" onClick={() => setLabel("responsiveness")} className={window.location.pathname.slice(1) === "React-Clinic-Project/userpanel/responsiveness" ? "active" : null}>
+              <Link to="responsiveness" onClick={() => setLabel("responsiveness")} className={window.location.pathname === "/React-Clinic-Project/userpanel/responsiveness" ? "active" : null}>
 
                 جوابدهی
 
               </Link>
 
-              <Link to="NobatDehi" onClick={() => setLabel("NobatDehi")} className={window.location.pathname.slice(1) === "React-Clinic-Project/userpanel/NobatDehi" ? "active" : null}>
+              <Link to="NobatDehi" onClick={() => setLabel("NobatDehi")} className={window.location.pathname === "/React-Clinic-Project/userpanel/NobatDehi" ? "active" : null}>
 
                 نوبت دهی
 

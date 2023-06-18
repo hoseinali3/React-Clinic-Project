@@ -22,8 +22,8 @@ export default function Login() {
 
     const [mainInputValue, setMainInputValue] = useState('');
 
-    const [captchaNum, setCaptchaNum] = useState(null)
     const [inputCaptchaCode, setInputCaptchacode] = useState('')
+    const [captchaNum, setCaptchaNum] = useState(null)
     const [captchaCodeData, setCaptchaCodeData] = useState(null)
 
     const [inputKeyCode, setInputKeycode] = useState('')
@@ -39,32 +39,40 @@ export default function Login() {
         setKeyCodeData(JSON.parse(localStorage.getItem("keyCode")))
         setCaptchaCodeData(JSON.parse(localStorage.getItem("captchaCode")))
 
-    }, [randomKeyCode, inputKeyCode])
+    }, [randomKeyCode, inputKeyCode, inputCaptchaCode])
 
     useEffect(() => {
 
         loginChangeValidation()
+
 
     }, [inputCaptchaCode, inputKeyCode, mainInputValue])
 
 
 
 
-    async function loginChangeValidation() {
+    function loginChangeValidation() {
 
         const regValidation = authNumberRegEx.test(mainInputValue) || phoneNumberRegEx.test(mainInputValue) || ticketRegEx.test(mainInputValue)
-
-        if (+inputCaptchaCode === captchaCodeData && +inputKeyCode === keyCodeData && regValidation) {
-            await setIsValid(true)
+        const captchaValidation = +inputCaptchaCode === captchaCodeData;
+        const keyCodeValidation = +inputKeyCode === keyCodeData;
+      console.log(regValidation);
+        if (regValidation && captchaValidation && keyCodeValidation ) {
+            setIsValid(true)
         } else {
-            await setIsValid(false)
+            setIsValid(false)
         }
     }
-    async function loginHandler() {
 
-        const phoneValid = await patData.find(item => item.phone === mainInputValue)
-        const nationalCodeValid = await patData.find(item => item.national_code === mainInputValue)
-        const ticketValid = await patData.find(item => item.t_number === mainInputValue)
+
+
+
+
+    function loginHandler() {
+
+        const phoneValid = patData.find(item => item.phone === mainInputValue)
+        const nationalCodeValid = patData.find(item => item.national_code === mainInputValue)
+        const ticketValid = patData.find(item => item.t_number === mainInputValue)
 
         const mainUserName = typeof phoneValid !== 'undefined' ? phoneValid.username : null
         const mainUserName2 = typeof nationalCodeValid !== 'undefined' ? nationalCodeValid.username : null
@@ -128,12 +136,14 @@ export default function Login() {
 
                     </div>
                     <PhoneKeyCode
-                        changeHandler={(event) => setInputKeycode(event.target.value)}
+                        changeHandler={event => setInputKeycode(event.target.value)}
                         inputKeyCode={inputKeyCode}
+                        randomKeyCode={randomKeyCode}
+                        setRandomKeyCode={setRandomKeyCode}
 
                     />
                     <CaptchaCode
-                        changeHandler={(event) => setInputCaptchacode(event.target.value)}
+                        changeHandler={event => setInputCaptchacode(event.target.value)}
                         captchaNum={captchaNum}
                         setCaptchaNum={setCaptchaNum}
                         inputCaptchaCode={inputCaptchaCode}
